@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { useState, useEffect } from 'react';
+import firebase from './firebase';
+import Table from './Table';
 
 function App() {
+  const [expenses, setExpenses] = useState([]);
+  useEffect(() => {
+    const dbRef = firebase.database().ref();
+
+    dbRef.on('value', (response) => {
+      const newState = [];
+
+      const data = response.val();
+
+      for (let key in data) {
+        newState.push(data[key])
+      }
+      setExpenses(newState);
+    })
+  }, [])
+
+  const filteredExpenses = expenses.filter(expense => expense.category === 'Shopping');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Table expenses={filteredExpenses} />
     </div>
   );
 }
 
 export default App;
+
