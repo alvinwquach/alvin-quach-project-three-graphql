@@ -5,29 +5,28 @@ import Table from "./Table";
 import CategoryForm from "./CategoryForm";
 import Footer from "./Footer";
 
+
 function App() {
+  // all expenses from firebase
   const [expenses, setExpenses] = useState([]);
-  const [filteredExpense, setFilteredExpense] = useState([]);
+  // filtered expenses AKA what to show
+  const [filteredExpenses, setFilteredExpenses] = useState([]);
 
   // form submit logic function
-  const getExpenses = (e, filteredExpense) => {
+  const categorySelected = (e, userChoice) => {
     e.preventDefault();
-
-    console.log({ expenses });
-    console.log(filteredExpense);
-    if (filteredExpense === "all") {
-      setFilteredExpense(expenses);
+    // show all expenses if user choice is all
+    if (userChoice === "all") {
+      setFilteredExpenses(expenses);
       return;
     }
-    // loop over this new array (expensesFiltered) using (filter)
+    // filter each expense's category to output user choice
     const expensesFiltered = expenses.filter((singleExpense) => {
-      // return only the expenses that match the selected category value
-
-      return singleExpense.category.toLowerCase() === filteredExpense;
+      // return only the expenses that match the selected category value that the user chooses
+      return singleExpense.category.toLowerCase() === userChoice;
     });
-    console.log({ expensesFiltered });
-    setFilteredExpense(expensesFiltered);
-    console.log({ filteredExpense });
+    //show filtered expenses
+    setFilteredExpenses(expensesFiltered);
   };
 
   useEffect(() => {
@@ -41,9 +40,10 @@ function App() {
       for (let key in data) {
         newState.push(data[key]);
       }
+      // show expenses on page load
       setExpenses(newState);
-      setFilteredExpense(newState);
-      console.log(newState);
+      // show filtered expenses
+      setFilteredExpenses(newState);
     });
   }, []);
 
@@ -51,8 +51,8 @@ function App() {
     <div>
       <main>
         <h1>Expense Analyzer</h1>
-        <CategoryForm getExpenses={getExpenses} />
-        <Table expenses={filteredExpense} />
+        <CategoryForm onCategorySelect={categorySelected} />
+        <Table expenses={filteredExpenses} />
       </main>
       <Footer />
     </div>

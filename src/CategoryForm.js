@@ -10,10 +10,11 @@ function CategoryForm(props) {
   return (
     <div className="categoryForm">
       <h2>Show me my expenses by category:</h2>
-      <form onSubmit={(e) => props.getExpenses(e, userChoice)}>
+      {/*when a user submits the form by clicking on the button and their selected category appears*/}
+      <form onSubmit={(e) => props.onCategorySelect(e, userChoice)}>
         <select
-          id="filteredExpense"
-          name="filteredExpense"
+          id="category"
+          name="category"
           value={userChoice}
           onChange={handleUserChoice}
         >

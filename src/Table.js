@@ -1,4 +1,5 @@
 const Table = ({ expenses }) => {
+  // created function to format currency to have two digits after decimal
   function formatCurrency(value) {
     return value.toFixed(2);
   }
