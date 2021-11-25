@@ -18,12 +18,10 @@ const Table = ({ expenses }) => {
           {expenses.map((expense) => {
             return (
               <tr key={expense.id}>
-                <td className="expenseDate">{expense.date}</td>
-                <td className="expenseTransaction">{expense.transaction}</td>
-                <td className="expenseAmount">
-                  ${formatCurrency(expense.amount)}
-                </td>
-                <td className="expenseCategory">{expense.category}</td>
+                <td>{expense.date}</td>
+                <td>{expense.transaction}</td>
+                <td>${formatCurrency(expense.amount)}</td>
+                <td>{expense.category}</td>
               </tr>
             );
           })}
