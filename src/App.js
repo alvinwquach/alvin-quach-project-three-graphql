@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { useState, useEffect } from "react";
 import firebase from "./firebase";
 import Table from "./Table";
@@ -43,6 +43,7 @@ function App() {
       }
       setExpenses(newState);
       setFilteredExpense(newState);
+      console.log(newState);
     });
   }, []);
 

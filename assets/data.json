@@ -1,0 +1,541 @@
+[
+    {
+		"id": 1,
+        "date": "1/20/21",
+        "transaction": "Amazon.com*CH81I4OM3",
+        "amount": 24.63,
+        "category": "Family"
+    },
+    {
+		"id": 2,
+        "date": "1/20/21",
+        "transaction": "TOCK ATMANRESA",
+        "amount": 203.73,
+        "category": "Restaurants"
+    },
+    {
+		"id": 3,
+        "date": "1/19/21",
+        "transaction": "SAN JOSE UTILITIES",
+        "amount": 573.13,
+        "category": "Utilities"
+    },
+    {
+		"id": 4,
+        "date": "1/18/21",
+        "transaction": "Amazon.com*T22ZL3LV3",
+        "amount": 115.79,
+        "category": "Gadgets"
+    },
+    {
+		"id": 5,
+        "date": "1/18/21",
+        "transaction": "PAYPAL *NETFLIX.COM",
+        "amount": 17.99,
+        "category": "Entertainment"
+    },
+    {
+		"id": 6,
+        "date": "1/17/21",
+        "transaction": "UBER   EATS",
+        "amount": 23.48,
+        "category": "Restaurants"
+    },
+    {
+		"id": 7,
+        "date": "1/17/21",
+        "transaction": "PAYPAL *UPPERCUTDEL",
+        "amount": 24.73,
+        "category": "Shopping"
+    },
+    {
+		"id": 8,
+        "date": "1/17/21",
+        "transaction": "UBER   EATS",
+        "amount": 14.29,
+        "category": "Restaurants"
+    },
+    {
+		"id": 9,
+        "date": "1/17/21",
+        "transaction": "AMZN Mktp US*671QL1OU3",
+        "amount": 55.63,
+        "category": "Gadgets"
+    },
+    {
+		"id": 10,
+        "date": "1/17/21",
+        "transaction": "COMCAST CALIFORNIA",
+        "amount": 120.00,
+        "category": "Utilities"
+    },
+    {
+		"id": 11,
+        "date": "1/17/21",
+        "transaction": "PAYPAL *HULU",
+        "amount": 64.99,
+        "category": "Entertainment"
+    },
+    {
+		"id": 12,
+        "date": "1/17/21",
+        "transaction": "AMZN Mktp US*4E4HE9O33",
+        "amount": 329.55,
+        "category": "Gifts"
+    },
+    {
+		"id": 13,
+        "date": "1/15/21",
+        "transaction": "UBER   EATS",
+        "amount": 74.05,
+        "category": "Restaurants"
+    },
+    {
+		"id": 14,
+        "date": "1/15/21",
+        "transaction": "Amazon.com*931I47CI3",
+        "amount": 8.65,
+        "category": "Groceries"
+    },
+    {
+		"id": 15,
+        "date": "1/15/21",
+        "transaction": "TRAVEL CREDIT",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 16,
+        "date": "1/15/21",
+        "transaction": "PAYPAL *BOKKSU INC",
+        "amount": 119.97,
+        "category": "Shopping"
+    },
+    {
+		"id": 17,
+        "date": "1/14/21",
+        "transaction": "Amazon.com*K66GJ0RK3",
+        "amount": 13.65,
+        "category": "Gadgets"
+    },
+    {
+		"id": 18,
+        "date": "1/14/21",
+        "transaction": "Amazon.com*HO8J681K3",
+        "amount": 41.52,
+        "category": "House"
+    },
+    {
+		"id": 19,
+        "date": "1/14/21",
+        "transaction": "Amazon.com*N12924RH3",
+        "amount": 13.08,
+        "category": "Groceries"
+    },
+    {
+		"id": 20,
+        "date": "1/13/21",
+        "transaction": "APPLE.COM/BILL",
+        "amount": 9.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 21,
+        "date": "1/13/21",
+        "transaction": "APPLE.COM/US",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 22,
+        "date": "1/13/21",
+        "transaction": "TOCK ATMANRESA",
+        "amount": 363.84,
+        "category": "Restaurants"
+    },
+    {
+		"id": 23,
+        "date": "1/12/21",
+        "transaction": "Amazon.com*R77AT48Z3",
+        "amount": 15.27,
+        "category": "Gadgets"
+    },
+    {
+		"id": 24,
+        "date": "1/12/21",
+        "transaction": "PAYPAL *S AND S",
+        "amount": 152.51,
+        "category": "Gifts"
+    },
+    {
+		"id": 25,
+        "date": "1/11/21",
+        "transaction": "Payment Thank You-Mobile",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 26,
+        "date": "1/11/21",
+        "transaction": "SOMA SMART HOME",
+        "amount": 49.00,
+        "category": "Gadgets"
+    },
+    {
+		"id": 27,
+        "date": "1/10/21",
+        "transaction": "PAYPAL *S AND S",
+        "amount": 117.12,
+        "category": "Shopping"
+    },
+    {
+		"id": 28,
+        "date": "1/10/21",
+        "transaction": "AMZN Mktp US*SY5J27633",
+        "amount": 51.37,
+        "category": "Drinks"
+    },
+    {
+		"id": 29,
+        "date": "1/10/21",
+        "transaction": "AMZN Mktp US*9F2C292G3",
+        "amount": 19.99,
+        "category": "Coffee"
+    },
+    {
+		"id": 30,
+        "date": "1/10/21",
+        "transaction": "GOOGLE *Google Storage",
+        "amount": 1.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 31,
+        "date": "1/10/21",
+        "transaction": "TRAVEL CREDIT",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 32,
+        "date": "1/10/21",
+        "transaction": "LITTLESPOON.COM",
+        "amount": 59.99,
+        "category": "Groceries"
+    },
+    {
+		"id": 33,
+        "date": "1/10/21",
+        "transaction": "Amazon.com*BJ24I5QO3",
+        "amount": 237.06,
+        "category": "Gadgets"
+    },
+    {
+		"id": 34,
+        "date": "1/10/21",
+        "transaction": "AMZN Mktp US*ST3CO8X93",
+        "amount": 131.09,
+        "category": "Gadgets"
+    },
+    {
+		"id": 35,
+        "date": "1/10/21",
+        "transaction": "STATE FARM  INSURANCE",
+        "amount": 345.94,
+        "category": "Insurance"
+    },
+    {
+		"id": 36,
+        "date": "1/8/21",
+        "transaction": "Amazon.com*6L0AA3ND3",
+        "amount": 45.82,
+        "category": "Gadgets"
+    },
+    {
+		"id": 37,
+        "date": "1/7/21",
+        "transaction": "AMZN Mktp US*7Y5OY3HA3",
+        "amount": 37.13,
+        "category": "Health"
+    },
+    {
+		"id": 38,
+        "date": "1/7/21",
+        "transaction": "Amazon.com*IP2DY65B3",
+        "amount": 21.74,
+        "category": "Groceries"
+    },
+    {
+		"id": 39,
+        "date": "1/6/21",
+        "transaction": "Amazon.com*JR48P6MX3",
+        "amount": 38.23,
+        "category": "Family"
+    },
+    {
+		"id": 40,
+        "date": "1/5/21",
+        "transaction": "UBER   EATS",
+        "amount": 102.71,
+        "category": "Restaurants"
+    },
+    {
+		"id": 41,
+        "date": "1/5/21",
+        "transaction": "VZWRLSS*APOCC VISW",
+        "amount": 95.71,
+        "category": "Utilities"
+    },
+    {
+		"id": 42,
+        "date": "1/4/21",
+        "transaction": "SP * NUGGETCOMFORT.COM",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 43,
+        "date": "1/4/21",
+        "transaction": "WWW COSTCO COM",
+        "amount": 26.21,
+        "category": "Groceries"
+    },
+    {
+		"id": 44,
+        "date": "1/4/21",
+        "transaction": "Amazon.com*DO1ZC3EQ3",
+        "amount": 117.75,
+        "category": "Family"
+    },
+    {
+		"id": 45,
+        "date": "1/3/21",
+        "transaction": "DOORDASH CREDIT",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 46,
+        "date": "1/3/21",
+        "transaction": "DOORDASH*TISANE",
+        "amount": 39.12,
+        "category": "Restaurants"
+    },
+    {
+		"id": 47,
+        "date": "1/3/21",
+        "transaction": "PAYPAL *NAMECHEAP",
+        "amount": 50.00,
+        "category": "Gadgets"
+    },
+    {
+		"id": 48,
+        "date": "1/3/21",
+        "transaction": "PAYPAL *TILE INC",
+        "amount": 2.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 49,
+        "date": "1/3/21",
+        "transaction": "Peloton Membership Credit",
+        "amount": 0.00,
+        "category": "N/A"
+    },
+    {
+		"id": 50,
+        "date": "1/3/21",
+        "transaction": "PELOTON* MEMBERSHIP",
+        "amount": 39.00,
+        "category": "Health"
+    },
+    {
+		"id": 51,
+        "date": "1/1/21",
+        "transaction": "PAYPAL *CRATEANDBAR",
+        "amount": 363.97,
+        "category": "Gadgets"
+    },
+    {
+		"id": 52,
+        "date": "1/1/21",
+        "transaction": "DOORDASH*DANBI KOREAN",
+        "amount": 54.66,
+        "category": "Restaurants"
+    },
+    {
+		"id": 53,
+        "date": "12/31/20",
+        "transaction": "Amazon.com*QM79J7NE3",
+        "amount": 15.27,
+        "category": "Gadgets"
+    },
+    {
+		"id": 54,
+        "date": "12/31/20",
+        "transaction": "SP * LUNYA SLEEPWEAR",
+        "amount": 267.27,
+        "category": "Gifts"
+    },
+    {
+		"id": 55,
+        "date": "12/31/20",
+        "transaction": "Amazon.com*884RU4MO3",
+        "amount": 43.68,
+        "category": "Gadgets"
+    },
+    {
+		"id": 56,
+        "date": "12/28/20",
+        "transaction": "UBER   EATS",
+        "amount": 39.03,
+        "category": "Restaurants"
+    },
+    {
+		"id": 57,
+        "date": "12/28/20",
+        "transaction": "APPLE.COM/BILL",
+        "amount": 9.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 58,
+        "date": "12/27/20",
+        "transaction": "CS NordstromGiftCard",
+        "amount": 100.00,
+        "category": "Gifts"
+    },
+    {
+		"id": 59,
+        "date": "12/27/20",
+        "transaction": "SOMA SMART HOME",
+        "amount": 119.00,
+        "category": "Gadgets"
+    },
+    {
+		"id": 60,
+        "date": "12/25/20",
+        "transaction": "PAYPAL *USPS STORE",
+        "amount": 25.30,
+        "category": "Gifts"
+    },
+    {
+		"id": 61,
+        "date": "12/25/20",
+        "transaction": "APPLE.COM/BILL",
+        "amount": 5.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 62,
+        "date": "12/25/20",
+        "transaction": "PAYPAL *MINTED LLC MINTED",
+        "amount": 194.24,
+        "category": "Gifts"
+    },
+    {
+		"id": 63,
+        "date": "12/25/20",
+        "transaction": "TRAVEL CREDIT",
+        "amount": 0.00,  
+        "category": "N/A"
+    },
+    {
+		"id": 64,
+        "date": "12/25/20",
+        "transaction": "INSTACART",
+        "amount": 154.78,
+        "category": "Groceries"
+    },
+    {
+		"id": 65,
+        "date": "12/25/20",
+        "transaction": "Amazon.com*546K45JR3",
+        "amount": 18.00,
+        "category": "Gadgets"
+    },
+    {
+		"id": 66,
+        "date": "12/25/20",
+        "transaction": "APPLE.COM/US",
+        "amount": 0.00,	
+        "category": "N/A"
+    },
+    {
+		"id": 67,
+        "date": "12/24/20",
+        "transaction": "PAYPAL *BUYBUYBABY",
+        "amount": 51.81,
+        "category": "Shopping"
+    },
+    {
+		"id": 68,
+        "date": "12/24/20",
+        "transaction": "AMZN Mktp US*HK2F70403",
+        "amount": 18.56,
+        "category": "Gadgets"
+    },
+    {
+		"id": 69,
+        "date": "12/24/20",
+        "transaction": "Amazon.com*CP8WV61L3",
+        "amount": 12.01,
+        "category": "Groceries"
+    },
+    {
+		"id": 70,
+        "date": "12/24/20",
+        "transaction": "PP*APPLE.COM/BILL",
+        "amount": 0.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 71,
+        "date": "12/24/20",
+        "transaction": "UBER   EATS",
+        "amount": 63.66,
+        "category": "Restaurants"
+    },
+    {
+		"id": 72,
+        "date": "12/23/20",
+        "transaction": "XFINITY MOBILE",
+        "amount": 52.40,
+        "category": "Utilities"
+    },
+    {
+		"id": 73,
+        "date": "12/23/20",
+        "transaction": "PG&amp;E WEBRECURRING",
+        "amount": 674.13,
+        "category": "Utilities"
+    },
+    {
+		"id": 74,
+        "date": "12/22/20",
+        "transaction": "TOCK ATMANRESA",
+        "amount": 60.40,
+        "category": "Restaurants"
+    },
+    {
+		"id": 75,
+        "date": "12/22/20",
+        "transaction": "UBER   EATS",
+        "amount": 45.66,
+        "category": "Restaurants"
+    },
+    {
+		"id": 76,
+        "date": "12/22/20",
+        "transaction": "APPLE.COM/BILL",
+        "amount": 2.99,
+        "category": "Utilities"
+    },
+    {
+		"id": 77,
+        "date": "12/21/20",
+        "transaction": "RING MONTHLY",
+        "amount": 3.00,
+        "category": "Security"
+    }
+]

@@ -8,9 +8,9 @@ function CategoryForm(props) {
   };
 
   return (
-    <div>
+    <div className="categoryForm">
+      <h2>Show me my expenses by category:</h2>
       <form onSubmit={(e) => props.getExpenses(e, userChoice)}>
-        <h2>Show me my expenses by category:</h2>
         <select
           id="filteredExpense"
           name="filteredExpense"
@@ -37,8 +37,8 @@ function CategoryForm(props) {
           <option value="shopping">Shopping</option>
           <option value="utilities">Utilities</option>
         </select>
-        <button className="btn" type="submit">
-          Where did my money go?!
+        <button className="buttonPrimary" type="submit">
+          Where did my money go?!💸
         </button>
       </form>
     </div>

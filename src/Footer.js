@@ -8,7 +8,7 @@ const Footer = () => {
           aria-label="Link to Juno College of Technology Website"
           href="https://junocollege.com/"
         >
-          Created at Juno College&copy
+          Created at Juno College&copy;
         </a>
       </footer>
     </div>
