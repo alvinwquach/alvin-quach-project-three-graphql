@@ -49,7 +49,6 @@ function App() {
 
   return (
     <div>
-      <title>Expense Analyzer</title>
       <main>
         <h1>Expense Analyzer</h1>
         <CategoryForm onCategorySelect={categorySelected} />

@@ -95,3 +95,21 @@ footer {
   margin-bottom: 2rem;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 h2 {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .categoryForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+}
