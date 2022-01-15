@@ -250,6 +250,15 @@ main {
   outline: 2px solid #60a5fa;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+a:hover {
+  color: #60a5fa;
+}
+
 h1 {
   margin-bottom: -1em;
 }
@@ -304,9 +313,8 @@ footer {
 }
 
 .expenseReport {
-  display: grid;
+  display: flex;
   justify-content: center;
-  text-align: left;
 }
 
 .categoryForm {
@@ -315,4 +323,16 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  table {
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }/*# sourceMappingURL=App.css.map */
