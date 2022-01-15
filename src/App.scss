@@ -70,9 +70,9 @@ footer {
 }
 .expenseReport {
   display: flex;
-  flex-shrink: 1;
   justify-content: center;
   text-align: left;
+  min-width: fit-content;
 }
 
 .categoryForm {
