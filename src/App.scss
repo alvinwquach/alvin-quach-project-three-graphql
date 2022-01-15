@@ -69,7 +69,8 @@ footer {
   justify-content: center;
 }
 .expenseReport {
-  display: grid;
+  display: flex;
+  flex-shrink: 1;
   justify-content: center;
   text-align: left;
 }
