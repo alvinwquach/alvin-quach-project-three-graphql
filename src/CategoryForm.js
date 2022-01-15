@@ -13,6 +13,7 @@ function CategoryForm(props) {
       {/*when a user submits the form by clicking on the button and their selected category appears*/}
       <form onSubmit={(e) => props.onCategorySelect(e, userChoice)}>
         <select
+          htmlFor="category"
           id="category"
           name="category"
           value={userChoice}
