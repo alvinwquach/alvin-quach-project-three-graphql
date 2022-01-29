@@ -1,16 +1,13 @@
 import "./App.scss";
-import { useState, useEffect } from "react";
-import firebase from "./firebase";
+import { useState } from "react";
 import Table from "./Table";
 import CategoryForm from "./CategoryForm";
 import Footer from "./Footer";
+import { useFetchExpensesQuery } from "./generated/graphql";
 
-
-function App() {
-  // all expenses from firebase
-  const [expenses, setExpenses] = useState([]);
+function ActualApp({ expenses }) {
   // filtered expenses AKA what to show
-  const [filteredExpenses, setFilteredExpenses] = useState([]);
+  const [filteredExpenses, setFilteredExpenses] = useState(expenses);
 
   // form submit logic function
   const categorySelected = (e, userChoice) => {
@@ -29,24 +26,6 @@ function App() {
     setFilteredExpenses(expensesFiltered);
   };
 
-  useEffect(() => {
-    const dbRef = firebase.database().ref();
-
-    dbRef.on("value", (response) => {
-      const newState = [];
-
-      const data = response.val();
-
-      for (let key in data) {
-        newState.push(data[key]);
-      }
-      // show expenses on page load
-      setExpenses(newState);
-      // show filtered expenses
-      setFilteredExpenses(newState);
-    });
-  }, []);
-
   return (
     <div>
       <main>
@@ -57,6 +36,28 @@ function App() {
       <Footer />
     </div>
   );
+}
+
+function App() {
+  const queryResult = useFetchExpensesQuery({
+    variables: { month: "Dry January" },
+  });
+
+  const { loading, data, error } = queryResult;
+
+  console.log(`loading: ${loading}`);
+  console.log(`data: `, data);
+  console.log(`error:`, error);
+
+  const expenses = data?.statement?.expenses || [];
+
+  if (loading) {
+    return <pre>Loading...</pre>;
+  } else if (error) {
+    return <pre>{error.message}</pre>;
+  }
+
+  return <ActualApp expenses={expenses} />;
 }
 
 export default App;

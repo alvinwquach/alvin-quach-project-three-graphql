@@ -1,0 +1,16 @@
+type Expense {
+  amount: Float!
+  category: String!
+  date: String!
+  id: Int!
+  transaction: String!
+}
+
+type Statement {
+  month: String!
+  expenses: [Expense!]
+}
+
+type Query {
+  statement(month: String!): Statement!
+}
