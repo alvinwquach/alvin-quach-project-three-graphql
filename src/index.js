@@ -3,12 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MockedProvider } from "@apollo/client/testing";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import { mockedExpenses } from "./mocks";
+
+const client = new ApolloClient({
+  uri: "https://api.alanquach.com/graphql",
+  cache: new InMemoryCache(),
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApolloProvider client={client}>
+      <MockedProvider mocks={[mockedExpenses]}>
+        <App />
+      </MockedProvider>
+    </ApolloProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

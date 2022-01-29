@@ -1,0 +1,12 @@
+query fetchExpenses($month: String!) {
+  statement(month: $month) {
+    month
+    expenses {
+      id
+      date
+      transaction
+      amount
+      category
+    }
+  }
+}
